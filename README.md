@@ -2,6 +2,15 @@
 
 A machine learning project designed to detect and classify cyberbullying in tweets. The pipeline is built to handle both binary classification (detecting if a tweet is bullying or not) and multi-class classification (categorizing the type of bullying, such as gender, religion, age, or ethnicity).
 
+***NOTE***
+This project uses Stanford's GloVe word embeddings (`glove.6B.300d.txt`), which are too large to host on GitHub. Before running the project, you need to download them manually:
+
+1. Download the `glove.6B.zip` file (822 MB) from the [Official Stanford NLP Group website](https://nlp.stanford.edu/data/glove.6B.zip).
+2. Extract the ZIP file.
+3. Move the `glove.6B.300d.txt` file into the `data/` directory of this project.
+
+Ensure the path looks exactly like this: `data/glove.6B.300d.txt`.
+
 ## How it works
 
 The project is split into two main modeling approaches:
