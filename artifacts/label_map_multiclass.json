@@ -1,0 +1,11 @@
+{
+  "task": "multiclass",
+  "labels": [
+    "not_cyberbullying",
+    "gender",
+    "religion",
+    "age",
+    "ethnicity",
+    "other_cyberbullying"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "task": "binary",
+  "labels": [
+    "not_cyberbullying",
+    "cyberbullying"
+  ]
+}
